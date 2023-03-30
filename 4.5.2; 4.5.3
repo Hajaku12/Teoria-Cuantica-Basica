@@ -1,0 +1,20 @@
+# 4.5.2 y 4.5.3
+
+Analisis: 
+Dado que el producto tensor cumple con la propiedad de asociatividad, se puede concluir que cada vector V representa una combinación 
+larga de productos tensoriales. De acuerdo con el postulado correspondiente, se considera un conjunto de números complejos y se determina 
+su probabilidad en un punto específico.
+
+Siendo n = 4 con complejos con el complejo 1+i, podemos encontrar donde esta la particula en X1: 
+n= matriz([ [[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]],[[1,1]] ])
+
+Por medio del modulo cuadrado encontramos el vector. Ahora se verifica la probabilidade de encontrar una particula en X1 por medio del proximo codigo:
+x1= n.c[1][0]
+contador=0
+for i in range(len(n.c)):
+	contador+=n.c[i][0]
+print(x1[0]/cont)
+La cual nos da elproximo resultado
+0.0625
+
+Podemos concluir que hay un porcentaje de 62.5% para encontrar la particula en X1. 
